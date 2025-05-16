@@ -430,7 +430,11 @@ INTRO DESCRIPTION CONTAINER
 
 .top-row__img {
   object-fit: cover;
-  padding: 0 0 0 100px;
+  
+}
+
+.description__para{
+    padding-right: 12px;
 }
 
 .description__blob {
@@ -1258,9 +1262,7 @@ MEDIA QUERIES
         display: flex;
         justify-content: flex-end;
     }
-    .top-row__img {
-        max-width: 512px;
-    }
+
     .row-top .row {
         align-items: flex-end;
     }
@@ -1323,9 +1325,9 @@ MEDIA QUERIES
         margin-top: 48px;
     }
 
-
-
-    
+    .top-row__img {
+        max-width: 512px;
+    }
 
     .features {
         max-width: 768px;
